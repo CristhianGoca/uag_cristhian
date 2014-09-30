@@ -14,13 +14,14 @@
 		CF8DC03A19D732F5001C86E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DC03919D732F5001C86E8 /* main.m */; };
 		CF8DC03E19D732F5001C86E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DC03D19D732F5001C86E8 /* AppDelegate.m */; };
 		CF8DC04119D732F5001C86E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF8DC03F19D732F5001C86E8 /* Main.storyboard */; };
-		CF8DC04419D732F5001C86E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DC04319D732F5001C86E8 /* ViewController.m */; };
+		CF8DC04419D732F5001C86E8 /* Welcome.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DC04319D732F5001C86E8 /* Welcome.m */; };
 		CF8DC04619D732F5001C86E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8DC04519D732F5001C86E8 /* Images.xcassets */; };
 		CF8DC04D19D732F5001C86E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8DC04C19D732F5001C86E8 /* XCTest.framework */; };
 		CF8DC04E19D732F5001C86E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8DC02D19D732F5001C86E8 /* Foundation.framework */; };
 		CF8DC04F19D732F5001C86E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF8DC03119D732F5001C86E8 /* UIKit.framework */; };
 		CF8DC05719D732F5001C86E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF8DC05519D732F5001C86E8 /* InfoPlist.strings */; };
 		CF8DC05919D732F5001C86E8 /* UAGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF8DC05819D732F5001C86E8 /* UAGTests.m */; };
+		CF8DC07A19D73E87001C86E8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8DC07919D73E87001C86E8 /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,15 @@
 		CF8DC03C19D732F5001C86E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF8DC03D19D732F5001C86E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CF8DC04019D732F5001C86E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CF8DC04219D732F5001C86E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CF8DC04319D732F5001C86E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CF8DC04219D732F5001C86E8 /* Welcome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Welcome.h; sourceTree = "<group>"; };
+		CF8DC04319D732F5001C86E8 /* Welcome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Welcome.m; sourceTree = "<group>"; };
 		CF8DC04519D732F5001C86E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CF8DC04B19D732F5001C86E8 /* UAGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UAGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8DC04C19D732F5001C86E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CF8DC05419D732F5001C86E8 /* UAGTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UAGTests-Info.plist"; sourceTree = "<group>"; };
 		CF8DC05619D732F5001C86E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF8DC05819D732F5001C86E8 /* UAGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UAGTests.m; sourceTree = "<group>"; };
+		CF8DC07919D73E87001C86E8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +117,8 @@
 				CF8DC03C19D732F5001C86E8 /* AppDelegate.h */,
 				CF8DC03D19D732F5001C86E8 /* AppDelegate.m */,
 				CF8DC03F19D732F5001C86E8 /* Main.storyboard */,
-				CF8DC04219D732F5001C86E8 /* ViewController.h */,
-				CF8DC04319D732F5001C86E8 /* ViewController.m */,
+				CF8DC04219D732F5001C86E8 /* Welcome.h */,
+				CF8DC04319D732F5001C86E8 /* Welcome.m */,
 				CF8DC04519D732F5001C86E8 /* Images.xcassets */,
 				CF8DC03419D732F5001C86E8 /* Supporting Files */,
 			);
@@ -126,6 +128,7 @@
 		CF8DC03419D732F5001C86E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CF8DC07819D73E87001C86E8 /* img */,
 				CF8DC03519D732F5001C86E8 /* UAG-Info.plist */,
 				CF8DC03619D732F5001C86E8 /* InfoPlist.strings */,
 				CF8DC03919D732F5001C86E8 /* main.m */,
@@ -150,6 +153,15 @@
 				CF8DC05519D732F5001C86E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF8DC07819D73E87001C86E8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CF8DC07919D73E87001C86E8 /* logo.png */,
+			);
+			name = img;
+			path = ../../../Documents/img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8DC07A19D73E87001C86E8 /* logo.png in Resources */,
 				CF8DC04619D732F5001C86E8 /* Images.xcassets in Resources */,
 				CF8DC03819D732F5001C86E8 /* InfoPlist.strings in Resources */,
 				CF8DC04119D732F5001C86E8 /* Main.storyboard in Resources */,
@@ -249,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF8DC04419D732F5001C86E8 /* ViewController.m in Sources */,
+				CF8DC04419D732F5001C86E8 /* Welcome.m in Sources */,
 				CF8DC03E19D732F5001C86E8 /* AppDelegate.m in Sources */,
 				CF8DC03A19D732F5001C86E8 /* main.m in Sources */,
 			);
