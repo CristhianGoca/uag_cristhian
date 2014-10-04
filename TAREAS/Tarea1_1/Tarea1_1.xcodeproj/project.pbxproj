@@ -21,6 +21,11 @@
 		CFDEEA2719E0636A00D027CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDEEA0919E0636A00D027CD /* UIKit.framework */; };
 		CFDEEA2F19E0636A00D027CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA2D19E0636A00D027CD /* InfoPlist.strings */; };
 		CFDEEA3119E0636A00D027CD /* Tarea1_1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFDEEA3019E0636A00D027CD /* Tarea1_1Tests.m */; };
+		CFDEEA4B19E0658400D027CD /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA4619E0658400D027CD /* 2.jpg */; };
+		CFDEEA4C19E0658400D027CD /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA4719E0658400D027CD /* 26.jpg */; };
+		CFDEEA4D19E0658400D027CD /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA4819E0658400D027CD /* 27.jpg */; };
+		CFDEEA4E19E0658400D027CD /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA4919E0658400D027CD /* 29.jpg */; };
+		CFDEEA4F19E0658400D027CD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDEEA4A19E0658400D027CD /* logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		CFDEEA2C19E0636A00D027CD /* Tarea1_1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tarea1_1Tests-Info.plist"; sourceTree = "<group>"; };
 		CFDEEA2E19E0636A00D027CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CFDEEA3019E0636A00D027CD /* Tarea1_1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tarea1_1Tests.m; sourceTree = "<group>"; };
+		CFDEEA4619E0658400D027CD /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CFDEEA4719E0658400D027CD /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		CFDEEA4819E0658400D027CD /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
+		CFDEEA4919E0658400D027CD /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		CFDEEA4A19E0658400D027CD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +136,7 @@
 		CFDEEA0C19E0636A00D027CD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CFDEEA4519E0658400D027CD /* img */,
 				CFDEEA0D19E0636A00D027CD /* Tarea1_1-Info.plist */,
 				CFDEEA0E19E0636A00D027CD /* InfoPlist.strings */,
 				CFDEEA1119E0636A00D027CD /* main.m */,
@@ -150,6 +161,19 @@
 				CFDEEA2D19E0636A00D027CD /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFDEEA4519E0658400D027CD /* img */ = {
+			isa = PBXGroup;
+			children = (
+				CFDEEA4619E0658400D027CD /* 2.jpg */,
+				CFDEEA4719E0658400D027CD /* 26.jpg */,
+				CFDEEA4819E0658400D027CD /* 27.jpg */,
+				CFDEEA4919E0658400D027CD /* 29.jpg */,
+				CFDEEA4A19E0658400D027CD /* logo.png */,
+			);
+			name = img;
+			path = ../../../../../Documents/img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +252,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDEEA4C19E0658400D027CD /* 26.jpg in Resources */,
+				CFDEEA4E19E0658400D027CD /* 29.jpg in Resources */,
 				CFDEEA1E19E0636A00D027CD /* Images.xcassets in Resources */,
 				CFDEEA1019E0636A00D027CD /* InfoPlist.strings in Resources */,
+				CFDEEA4F19E0658400D027CD /* logo.png in Resources */,
+				CFDEEA4B19E0658400D027CD /* 2.jpg in Resources */,
+				CFDEEA4D19E0658400D027CD /* 27.jpg in Resources */,
 				CFDEEA1919E0636A00D027CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
